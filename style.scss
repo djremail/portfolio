@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
+
 .page {
     width: 100%;
     min-height: 100vh;
@@ -162,4 +163,47 @@
             }
         }
     }
+}
+
+
+.mentors {
+    max-width: 1000px;
+    height: 1500px;
+    border: 10px solid rebeccapurple;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.item {
+    padding: 30px 0;
+    background-color: aqua;
+    font-size: 40px;
+    text-align: center;
+}
+
+.item_red {
+    background-color: red;
+}
+
+.item_black {
+    background-color: black;
+    color: white;
+}
+
+.item_yellow {
+    background-color: yellow;
+    color: blue;
+}
+
+.item_blue {
+    background-color: blue;
+    color: yellow;
+}
+
+.item_brown {
+    background-color: brown;
+}
+
+select {
+    padding-right: 20px;
 }
