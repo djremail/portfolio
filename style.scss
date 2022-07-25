@@ -98,8 +98,7 @@
                     font-size: 20px;
                     color: rgb(109, 33, 33);
                     text-decoration: none;
-                    margin-bottom: 10px;
-                    display: block;
+                    display: inline-block;
                     max-width: 140px;
                     transition: all .5s ease;
 
@@ -107,6 +106,16 @@
                         transition: all .5s ease;
                         color: red;
                     }
+                }
+
+                .work_link {
+                    margin-bottom: 40px;
+                    font-weight: 700;
+                }
+
+                .work_link_2 {
+                    margin-right: 20px;
+                    margin-bottom: 20px;
                 }
 
                 i {
@@ -160,50 +169,14 @@
                     width: 100%;
                     border-radius: 0 0 10px 10px;
                 }
+
+                .about_me_container {
+                    
+                    h3 {
+                        margin-top: 14px;
+                    }
+                }
             }
         }
     }
-}
-
-
-.mentors {
-    max-width: 1000px;
-    height: 1500px;
-    border: 10px solid rebeccapurple;
-    margin: 0 auto;
-    font-family: sans-serif;
-}
-
-.item {
-    padding: 30px 0;
-    background-color: aqua;
-    font-size: 40px;
-    text-align: center;
-}
-
-.item_red {
-    background-color: red;
-}
-
-.item_black {
-    background-color: black;
-    color: white;
-}
-
-.item_yellow {
-    background-color: yellow;
-    color: blue;
-}
-
-.item_blue {
-    background-color: blue;
-    color: yellow;
-}
-
-.item_brown {
-    background-color: brown;
-}
-
-select {
-    padding-right: 20px;
 }
